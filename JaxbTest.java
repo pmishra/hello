@@ -10,7 +10,7 @@ public class JaxbTest {
         Unmarshaller unmarshaller = jc.createUnmarshaller();
 
         // Unmarshal Customer
-        File customerXML = new File("src/jaxbTest/customer.xml");
+        File customerXML = new File("src/jaxbTest/test.xml");
         Customer customer = (Customer) unmarshaller.unmarshal(customerXML);
 System.out.println(customer.getName());
        
